@@ -9,7 +9,7 @@ if (m > n && m > 0 && n > 0) {
         m -= n;
         count++;
     }
-    console.log("Maximum number of rabbits in the same cell: "+(count+0));
+    console.log("Maximum number of rabbits in the same cell: "+count);
 } else {
     console.warn("Wrong inputs!");
 }
